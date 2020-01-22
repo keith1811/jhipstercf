@@ -59,6 +59,7 @@ public class UserService {
                 user.setActivationKey(null);
                 this.clearUserCaches(user);
                 log.debug("Activated user: {}", user);
+                log.debug("Activated user: {}", user);
                 return user;
             });
     }
